@@ -12,11 +12,13 @@
 		040FC8DB2493287C00CC6A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040FC8D92493287C00CC6A88 /* Main.storyboard */; };
 		040FC8E02493288200CC6A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040FC8DE2493288200CC6A88 /* LaunchScreen.storyboard */; };
 		040FC8EC249331D600CC6A88 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040FC8EB249331D600CC6A88 /* TableViewController.swift */; };
+		0424FB2624B6764B0055DB71 /* CityCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424FB2524B6764B0055DB71 /* CityCellVC.swift */; };
 		046D4D882495822100120869 /* weatherDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4D872495822100120869 /* weatherDetails.swift */; };
 		046D4D8B2496008700120869 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4D892496008700120869 /* Networking.swift */; };
 		046D4D8C2496008700120869 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4D8A2496008700120869 /* Models.swift */; };
 		046D4D9924960F0E00120869 /* Assest.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046D4D9824960F0E00120869 /* Assest.xcassets */; };
 		046D4DA924974B4900120869 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046D4DA824974B4900120869 /* Country.swift */; };
+		048213CD24B67D600085CA36 /* backgroundMusi.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 048213CC24B67D600085CA36 /* backgroundMusi.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +29,13 @@
 		040FC8DF2493288200CC6A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040FC8E12493288200CC6A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040FC8EB249331D600CC6A88 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		0424FB2524B6764B0055DB71 /* CityCellVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCellVC.swift; sourceTree = "<group>"; };
 		046D4D872495822100120869 /* weatherDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherDetails.swift; sourceTree = "<group>"; };
 		046D4D892496008700120869 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		046D4D8A2496008700120869 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		046D4D9824960F0E00120869 /* Assest.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assest.xcassets; sourceTree = "<group>"; };
 		046D4DA824974B4900120869 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		048213CC24B67D600085CA36 /* backgroundMusi.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = backgroundMusi.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 			children = (
 				040FC8D32493287C00CC6A88 /* AppDelegate.swift */,
 				040FC8D52493287C00CC6A88 /* SceneDelegate.swift */,
+				048213CC24B67D600085CA36 /* backgroundMusi.m4a */,
 				046D4D9E2496525E00120869 /* Networking */,
 				046D4DA12496587E00120869 /* Model */,
 				046D4D9F249657AF00120869 /* ViewController */,
@@ -90,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				040FC8EB249331D600CC6A88 /* TableViewController.swift */,
+				0424FB2524B6764B0055DB71 /* CityCellVC.swift */,
 				046D4D872495822100120869 /* weatherDetails.swift */,
 			);
 			path = ViewController;
@@ -169,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048213CD24B67D600085CA36 /* backgroundMusi.m4a in Resources */,
 				040FC8E02493288200CC6A88 /* LaunchScreen.storyboard in Resources */,
 				046D4D9924960F0E00120869 /* Assest.xcassets in Resources */,
 				040FC8DB2493287C00CC6A88 /* Main.storyboard in Resources */,
@@ -187,6 +194,7 @@
 				046D4D8B2496008700120869 /* Networking.swift in Sources */,
 				046D4DA924974B4900120869 /* Country.swift in Sources */,
 				046D4D882495822100120869 /* weatherDetails.swift in Sources */,
+				0424FB2624B6764B0055DB71 /* CityCellVC.swift in Sources */,
 				040FC8D62493287C00CC6A88 /* SceneDelegate.swift in Sources */,
 				046D4D8C2496008700120869 /* Models.swift in Sources */,
 			);
@@ -334,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "/Users/mac/Documents/IOS2020/KuwaitCodes2/day_8/ios-cw-8/IOSClasswork8/iOSClasswork8/info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/iOSClasswork8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,7 +360,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "/Users/mac/Documents/IOS2020/KuwaitCodes2/day_8/ios-cw-8/IOSClasswork8/iOSClasswork8/info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/iOSClasswork8/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
